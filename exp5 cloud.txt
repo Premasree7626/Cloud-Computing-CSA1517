@@ -1,0 +1,60 @@
+Step 3: Build the Required Modules
+1️⃣ Book Inventory Module
+Create a form called "Books Catalog" with fields:
+
+Book Title (Text)
+Author Name (Text)
+ISBN Number (Text)
+Category (Dropdown: Science, Fiction, History, etc.)
+Availability Status (Available / Reserved / Issued)
+Total Copies (Number)
+Upload Book Cover (File Upload)
+2️⃣ User Registration Module
+Create a form called "Library Users" with fields:
+
+Student/Faculty Name (Text)
+Library ID (Unique Number)
+Email (Email)
+Phone Number (Number)
+User Type (Dropdown: Student / Faculty / Staff)
+Password (Encrypted Text)
+3️⃣ Book Reservation Module
+Create a form called "Book Reservation" with fields:
+
+Library User (Lookup) – Select from Library Users
+Book Name (Lookup) – Select from Books Catalog
+Reservation Date (Date Picker)
+Return Due Date (Auto-Calculated)
+Status (Pending/Approved/Rejected)
+Remarks (Text)
+exp 6
+
+Step 3: Build the Required Modules
+1️⃣ Product Management Module
+Create a form called "Product Inventory" with fields:
+
+Product Name (Text)
+Category (Dropdown: Electronics, Clothing, Books, etc.)
+Price (Number)
+Stock Quantity (Number)
+Product Images (File Upload)
+Description (Multi-line Text)
+Availability Status (Available / Out of Stock)
+2️⃣ User Registration Module
+Create a form called "Customers" with fields:
+
+Customer Name (Text)
+Email (Email)
+Phone Number (Number)
+Shipping Address (Multi-line Text)
+Password (Encrypted Text)
+3️⃣ Order Management Module
+Create a form called "Orders" with fields:
+
+Customer Name (Lookup) – Select from Customers
+Product Name (Lookup) – Select from Product Inventory
+Quantity Ordered (Number)
+Total Price (Auto-Calculated) (Quantity × Price)
+Order Date (Date Picker)
+Order Status (Pending / Shipped / Delivered / Cancelled)
+Payment Status (Paid / Unpaid)
